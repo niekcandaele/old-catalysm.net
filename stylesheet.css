@@ -1,6 +1,5 @@
 body {
     background-size: 100%;
-    text-align: center;
     margin: 5%;
     font-size: 150%;
     font-family: 'Roboto', sans-serif;
@@ -23,6 +22,10 @@ a:hover {
     text-decoration: none;
 }
 
+.devicon {
+    size: 10%;
+}
+
 
 footer {
     color: white;
@@ -32,3 +35,8 @@ footer {
     top: 0;
 }
 
+@media only screen and (max-width: 600px) {
+    .contact-list {
+        text-align: center;
+    }
+}
